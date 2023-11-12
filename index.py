@@ -39,7 +39,7 @@ tts = gTTS(text, lang="es")
   
 ruta_guardado = "" #ruta del audio a guardar
 
-# # Guardar el audio en un archivo
+# Guardar el audio en un archivo
 tts.save(ruta_guardado)
 
 
