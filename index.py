@@ -31,9 +31,6 @@ pdf_file.close()
 # Imprime o almacena el texto extraído
 print(text)
 
-#Velocidad de audio
-velocidad= 1.5
-
 # Generar un audio de la frase "Hola, mundo"
 tts = gTTS(text, lang="es")
   
