@@ -3,7 +3,7 @@ import PyPDF2
 
 
 # Ruta del archivo PDF que deseas convertir a texto
-pdf_file_path = r'D:\Users\Mario\Downloads\Proyectos\PYTHON\pdf_to_mp3\documents\estimados_amigos.pdf'
+pdf_file_path = r'' #Ruta del documento PDF
 
 # Abre el archivo PDF en modo lectura binaria
 
@@ -37,7 +37,7 @@ velocidad= 1.5
 # Generar un audio de la frase "Hola, mundo"
 tts = gTTS(text, lang="es")
   
-ruta_guardado = "D:/Users/Mario/Downloads/Proyectos/PYTHON/pdf_to_mp3/audios/estimados_amigos.mp3"
+ruta_guardado = "" #ruta del audio a guardar
 
 # # Guardar el audio en un archivo
 tts.save(ruta_guardado)
