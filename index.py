@@ -39,8 +39,6 @@ ruta_guardado = "" #ruta del audio a guardar
 # Guardar el audio en un archivo
 tts.save(ruta_guardado)
 
-#Hola barber 
-
 
 
 
