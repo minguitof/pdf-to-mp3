@@ -38,22 +38,24 @@ cd pdf-to-mp3
 
 2. Instala las dependencias:
 
-```pip install -r requirements.txt
-🧪 Requiere Python 3.7 o superior.
 ```
+pip install -r requirements.txt
+```
+🧪 Requiere Python 3.7 o superior.
 
 ### Uso
-```python main.py archivo.pdf
-Esto generará archivo.mp3 en el mismo directorio.
 ```
+python main.py archivo.pdf
+```
+Esto generará archivo.mp3 en el mismo directorio.
 
 ✨ Ejemplo
 Supongamos que tienes un archivo llamado documento.pdf. Solo necesitas ejecutar:
 
 ```bash
 python main.py documento.pdf
-Y automáticamente se creará documento.mp3 listo para reproducir.
 ```
+Y automáticamente se creará documento.mp3 listo para reproducir.
 
 ⚠️ Notas
 Este script extrae texto directamente del PDF. No funciona con imágenes escaneadas (usa OCR previamente en esos casos).
